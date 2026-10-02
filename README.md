@@ -8,7 +8,11 @@ SQLite database for a Georgian restaurant, built as my final project for **Harva
 
 ## Schema
 
-![ER diagram](diagram.png)
+<p align="center">
+  <img src="diagram.png" alt="ER diagram" width="400">
+</p>
+
+`USER_ORDERED_FOOD` is a junction table resolving the many-to-many relationship between orders and food items.
 
 ## Run it
 
