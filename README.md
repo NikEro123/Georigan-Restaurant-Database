@@ -1,35 +1,14 @@
-# Georigan-Restaurant-Database
+# Georgian Restaurant Database
 
-A relational database for running a Georgian restaurant, designed in SQLite as my final project for **Harvard's CS50: Introduction to Databases with SQL**.
+SQLite database for a Georgian restaurant, built as my final project for **Harvard's CS50: Introduction to Databases with SQL**.
 
-## What it models
+## Video walkthrough
 
-<!-- 2–3 sentences: what the restaurant needs to track and why -->
+[▶ Watch on YouTube](https://youtu.be/MWy-7hPq8IE)
 
 ## Schema
 
-![Entity relationship diagram](diagram.png)
-
-| Table | What it stores |
-|---|---|
-| `table_name` | short description |
-| `table_name` | short description |
-
-<!-- one line on the key relationships, e.g. "each order belongs to one customer and contains many menu items" -->
-
-## Example queries
-
-```sql
--- what this query answers
-SELECT ...
-```
-
-```sql
--- what this query answers
-SELECT ...
-```
-
-All queries are in [`queries.sql`](queries.sql). Full design reasoning is in [`DESIGN.md`](DESIGN.md).
+![ER diagram](diagram.png)
 
 ## Run it
 
@@ -37,22 +16,14 @@ All queries are in [`queries.sql`](queries.sql). Full design reasoning is in [`D
 sqlite3 restaurant.db
 ```
 
-Or rebuild from scratch:
-
-```bash
-sqlite3 new.db < schema.sql
-```
-
 ## Files
 
-| File | Purpose |
-|---|---|
-| `schema.sql` | table definitions |
-| `queries.sql` | example queries |
-| `restaurant.db` | the database, ready to query |
-| `DESIGN.md` | design document: scope, entities, limitations |
-| `diagram.png` | ER diagram |
+- `schema.sql`: table definitions
+- `queries.sql`: example queries
+- `restaurant.db`: ready-to-use database
+- `DESIGN.md`: design document
+- `diagram.png`: ER diagram
 
 ## Certificate
 
-[CS50 SQL certificate](PASTE-CERTIFICATE-LINK-HERE) · [Video walkthrough](PASTE-YOUTUBE-LINK-HERE)
+[CS50 SQL certificate](https://cs50.harvard.edu/certificates/218b5d09-26a2-4001-a7cd-d7f5947af842)
